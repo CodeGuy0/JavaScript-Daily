@@ -33,5 +33,17 @@ false => 0
 // let someNumber = 33 => string
 // let someNumber = "Pranay"; => string
 
-let stringNumber = String(someNumber)
-console.log(typeof stringNumber);
+// let stringNumber = String(someNumber)
+// console.log(typeof stringNumber);
+
+// *************************** Operations ********************************
+
+
+console.log("1" + 2); //=> 12 how ?
+console.log(1 + "2"); //=> 12 how ?
+console.log("1" + 2 + 2); //=> 122 how?
+console.log(1+2+"2"); //=> 32 how ?
+console.log(+true); //=> 1
+console.log(+""); //=>  0
+
+//prefix and postfix
